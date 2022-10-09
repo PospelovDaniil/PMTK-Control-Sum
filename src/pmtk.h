@@ -10,7 +10,7 @@ typedef unsigned char u8;
  *
  *          $PGKC Command Arguments * CheckSum CR LF
  *          Ex: $PGKC115,1,0,0,0*2B<CR><LF> == "$PGKC115,1,0,0,0*2B\r\n" . 2B here checksum, PGKC115,1,0,0,0 string for xor
- *          Ex: $X*Y - GNSS command, where X - command, Y - check sum commanb
+ *          Ex: $X*Y - GNSS command, where X - command, Y - check sum command
  * @param   str
  * @return
  */
